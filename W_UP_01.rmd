@@ -1,7 +1,7 @@
 ---
 title: "W_UP_01"
 author: "Gracie Telles"
-date: "9/6/23"
+date: "Fall 2023"
 output: html_document
 ---
 
@@ -32,9 +32,11 @@ $H_A$: The average number of pushups done by line players is statistically diffe
 
 # Methods
 
-Push ups is a numerical variable, position is categorical therefor we use numerical-categorical analysis.
+Push ups is a numerical variable, position is categorical therefor we use numerical-categorical analysis. 
 
 <!--Decide on your methods: use "variable analysis" or other appropriate descriptors. Make sure to choose at least one graphical method and at least one numerical method.!-->
+
+We will be using Num~Cat helper file.
 
 # Results
 
@@ -45,6 +47,12 @@ Push ups is a numerical variable, position is categorical therefor we use numeri
 ### Graphical Descriptive Results
 
 <!--Graphical results here. Make sure to show your code. Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too. Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+boxplot(pushups~position,data=mydata)
+```
+
+This graph shows that the skill players do more pushups.
 
 ### Numerical Descriptive Results
 
