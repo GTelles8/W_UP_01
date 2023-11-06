@@ -7,8 +7,7 @@ output: html_document
 
 
 
-T
-he report structure should include five sections.  see below
+The report structure should include five sections.  see below
 
 
 
@@ -71,9 +70,11 @@ Skill players complete on average 50 pushups every two minutes versus a line pla
 ```{r}
 t.test(pushups~position,data=mydata)
 ```
-The P value is 0.00000942 which is less than 0.05 therfor we reject the null hypothesis.
+The P value is 0.00000942 which is less than 0.05 therefor we reject the null hypothesis.
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
+
+The question was is there a difference between the average number of pushups that can be done in two minutes between skill players and line players? We used a numerical categorical analysis to compare the postions and their corresponsing push up counts. Skill players complete on average 50 pushups every two minutes versus a line player's 17. The P value is 0.00000942 which is less than 0.05 therefor we reject the null hypothesis that there is no difference between the average number of pushups of line vs skill players.
